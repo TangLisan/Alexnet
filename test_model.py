@@ -7,9 +7,8 @@ moving average
 """
 import numpy as np
 import tensorflow as tf
-
-import input_data
-from MNIST_Alexnet import Alexnet, mnist_train
+from tensorflow.examples.tutorials.mnist import input_data
+import Alexnet, mnist_train
 
 
 def test_model(mnist):
