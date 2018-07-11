@@ -23,7 +23,7 @@ import numpy as np
 import tensorflow as tf
 
 from tensorflow.examples.tutorials.mnist import input_data 
-from Alexnet import Alexnet
+import Alexnet
 
 BATCH_SIZE = 100
 LEARNING_RATE_BASE = 0.1
